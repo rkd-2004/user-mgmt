@@ -21,58 +21,50 @@ A modern user management system built with Next.js, Tailwind CSS, and MongoDB. F
 
 ## Getting Started
 
-### 1. Clone the repository
+**1. Clone the repository**
 
-```bash
 git clone https://github.com/rkd-2004/user-mgmt.git
 cd user-mgmt.
 
-2. Install dependencies
-bash
-Copy
+**2. Install dependencies**
 pnpm install
-3. Environment Setup
-Create .env file from example:
 
-bash
-Copy
+**3. Environment Setup**
+Create .env file from example:
 cp .env.example .env
 Update .env with your credentials:
 
 env
-Copy
 MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.example.mongodb.net/user-mgmt
 JWT_SECRET=your_secure_secret_here
-4. Run the development server
-bash
-Copy
+
+**4. Run the development server**
 pnpm dev
+
 Open http://localhost:3000 in your browser.
 
-Assumptions & Considerations
-Authentication: Uses JWT with HTTP-only cookies for security
+**Assumptions & Considerations**
+**Authentication:** Uses JWT with HTTP-only cookies for security
 
-Styling: Tailwind CSS with shadcn/ui component library
+**Styling:** Tailwind CSS with shadcn/ui component library
 
-Database: MongoDB Atlas for cloud storage (local MongoDB supported)
+**Database:** MongoDB Atlas for cloud storage (local MongoDB supported)
 
-Error Handling: Basic error boundaries and form validation
+**Error Handling:** Basic error boundaries and form validation
 
-Security: Environment variables for sensitive data
+**Security:** Environment variables for sensitive data
 
-Scalability: Designed for small-medium user bases
+**Scalability:** Designed for small-medium user bases
 
-Troubleshooting
-Common Issues:
+**Troubleshooting
+Common Issues:**
 
-Missing Dependencies: Run pnpm install --force
+**Missing Dependencies:** Run pnpm install --force
 
-Connection Errors: Verify MongoDB URI and network access
+**Connection Errors:** Verify MongoDB URI and network access
 
-Build Errors: Check Node.js version (requires v18+)
+**Build Errors:** Check Node.js version (requires v18+)
 
-bash
-Copy
 # Clean install:
 rm -rf node_modules .next
 pnpm install
