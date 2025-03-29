@@ -2,10 +2,11 @@
 
 A modern user management system built with Next.js, Tailwind CSS, and MongoDB. Features authentication, user CRUD operations, and responsive UI.
 
-![Project Screenshot]
-(./public/ss1.png) <!-- Add a screenshot if available -->
-(./public/ss2.png)
-(./public/ss3.png)
+## Screenshots
+
+![Login Page](./public/ss1.png) <!-- Add a screenshot if available -->
+![Users Page-1](./public/ss2.png)
+![Users Page-2](./public/ss3.png)
 
 ## Features
 - User authentication (Register/Login)
@@ -31,6 +32,7 @@ A modern user management system built with Next.js, Tailwind CSS, and MongoDB. F
 ### **1. Clone the repository**
 
 git clone https://github.com/rkd-2004/user-mgmt.git
+
 cd user-mgmt.
 
 ### **2. Install dependencies**
@@ -38,7 +40,9 @@ pnpm install
 
 ### **3. Environment Setup**
 Create .env file from example:
+
 cp .env.example .env
+
 Update .env with your credentials:
 
 env
