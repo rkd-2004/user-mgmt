@@ -19,7 +19,7 @@ A modern user management system built with Next.js, Tailwind CSS, and MongoDB. F
 
 ## Live Deployment
 
-[![Vercel](https://img.shields.io/badge/Vercel-Live_Demo-black?style=for-the-badge&logo=vercel)]([https://user-mgmt.vercel.app](https://user-mgmt.vercel.app/))
+[![Vercel]([https://user-mgmt.vercel.app](https://user-mgmt.vercel.app/))
 
 ## Prerequisites
 
