@@ -19,7 +19,7 @@ A modern user management system built with Next.js, Tailwind CSS, and MongoDB. F
 
 ## Live Deployment
 
-[![Vercel]((https://user-mgmt.vercel.app/))
+➡️ **Production URL:** https://user-mgmt.vercel.app
 
 ## Prerequisites
 
