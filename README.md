@@ -2,7 +2,10 @@
 
 A modern user management system built with Next.js, Tailwind CSS, and MongoDB. Features authentication, user CRUD operations, and responsive UI.
 
-![Project Screenshot](./public/screenshot.png) <!-- Add a screenshot if available -->
+![Project Screenshot]
+(./public/ss1.png) <!-- Add a screenshot if available -->
+(./public/ss2.png)
+(./public/ss3.png)
 
 ## Features
 - User authentication (Register/Login)
