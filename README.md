@@ -4,9 +4,9 @@ A modern user management system built with Next.js, Tailwind CSS, and MongoDB. F
 
 ## Screenshots
 
-![Login Page](./public/ss1.png) <!-- Add a screenshot if available -->
-![Users Page-1](./public/ss2.png)
-![Users Page-2](./public/ss3.png)
+![Login Page](./images/ss1.png) <!-- Add a screenshot if available -->
+![Users Page-1](./images/ss2.png)
+![Users Page-2](./images/ss3.png)
 
 ## Features
 - User authentication (Register/Login)
@@ -54,7 +54,7 @@ pnpm dev
 
 Open http://localhost:3000 in your browser.
 
-### **Assumptions & Considerations**
+## **Assumptions & Considerations**
 **Authentication:** Uses JWT with HTTP-only cookies for security
 
 **Styling:** Tailwind CSS with shadcn/ui component library
@@ -67,7 +67,7 @@ Open http://localhost:3000 in your browser.
 
 **Scalability:** Designed for small-medium user bases
 
-### **Troubleshooting
+## Troubleshooting
 **Common Issues:**
 
 **Missing Dependencies:** Run pnpm install --force
@@ -78,5 +78,7 @@ Open http://localhost:3000 in your browser.
 
 # Clean install:
 rm -rf node_modules .next
+
 pnpm install
+
 pnpm build
