@@ -13,6 +13,10 @@ A modern user management system built with Next.js, Tailwind CSS, and MongoDB. F
 - Form validation with Zod
 - Modern UI components using shadcn/ui
 
+## Live Deployment
+
+[![Vercel](https://img.shields.io/badge/Vercel-Live_Demo-black?style=for-the-badge&logo=vercel)]([https://user-mgmt.vercel.app](https://user-mgmt.vercel.app/))
+
 ## Prerequisites
 
 - Node.js v18.x or higher
@@ -21,15 +25,15 @@ A modern user management system built with Next.js, Tailwind CSS, and MongoDB. F
 
 ## Getting Started
 
-**1. Clone the repository**
+### **1. Clone the repository**
 
 git clone https://github.com/rkd-2004/user-mgmt.git
 cd user-mgmt.
 
-**2. Install dependencies**
+### **2. Install dependencies**
 pnpm install
 
-**3. Environment Setup**
+### **3. Environment Setup**
 Create .env file from example:
 cp .env.example .env
 Update .env with your credentials:
@@ -38,12 +42,12 @@ env
 MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.example.mongodb.net/user-mgmt
 JWT_SECRET=your_secure_secret_here
 
-**4. Run the development server**
+### **4. Run the development server**
 pnpm dev
 
 Open http://localhost:3000 in your browser.
 
-**Assumptions & Considerations**
+### **Assumptions & Considerations**
 **Authentication:** Uses JWT with HTTP-only cookies for security
 
 **Styling:** Tailwind CSS with shadcn/ui component library
@@ -56,8 +60,8 @@ Open http://localhost:3000 in your browser.
 
 **Scalability:** Designed for small-medium user bases
 
-**Troubleshooting
-Common Issues:**
+### **Troubleshooting
+**Common Issues:**
 
 **Missing Dependencies:** Run pnpm install --force
 
